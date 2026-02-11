@@ -1,0 +1,26 @@
+product_id,product_name,category,price,stock_quantity
+1,Laptop,Electronics,55000,50
+2,Bluetooth Headset,Electronics,1500,120
+3,Mixer Grinder,Home Appliances,2500,80
+4,Office Chair,Furniture,4500,40
+5,T-Shirt,Fashion,600,200
+6,Jeans,Fashion,1200,180
+7,Smartphone,Electronics,25000,100
+8,LED TV,Electronics,35000,30
+9,Refrigerator,Home Appliances,30000,25
+10,Washing Machine,Home Appliances,22000,20
+11,Sneakers,Fashion,2500,150
+12,Air Conditioner,Home Appliances,28000,15
+13,Tablet,Electronics,18000,60
+14,Study Table,Furniture,7000,18
+15,Bookshelf,Furniture,5000,10
+16,Jacket,Fashion,2000,75
+17,Handbag,Fashion,1800,90
+18,Smartwatch,Electronics,8000,85
+19,Microwave,Home Appliances,8000,30
+20,Water Purifier,Home Appliances,12000,25
+21,Headphones,Electronics,2000,110
+22,Sunglasses,Fashion,900,160
+23,Bed Frame,Furniture,15000,12
+24,Office Lamp,Furniture,1200,55
+25,Power Bank,Electronics,1500,130
