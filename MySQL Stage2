@@ -1,0 +1,11 @@
+--SELECT * from ProductSQL;
+--SELECT avg(price) AS 'Average_pricing' FROM ProductSQL;
+--SELECT avg(price),sum(price),COUNT(price),min(price),max(price) from ProductSQL;
+--SELECT * FROM ProductSQL WHERE price>=10000;
+--SELECT price,stock_quantity FROM ProductSQL WHERE price>=10000 AND stock_quantity>=80;
+--SELECT * FROM ProductSQL ORDER BY price DESC;
+--SELECT * FROM ProductSQL WHERE price>=10000 LIMIT 3;
+--SELECT * FROM ProductSQL WHERE price>=10000 ORDER BY price asc LIMIT 10;
+--SELECT product_name, COUNT(*) FROM ProductSQL GROUP by category;
+--SELECT category, COUNT(*) FROM ProductSQL GROUP by price;
+--SELECT category,product_name,max(price) FROM ProductSQL GROUP by category;
