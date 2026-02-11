@@ -1,0 +1,23 @@
+--CREATE TABLE shirt(
+ -- color varchar(50),
+ -- size int,
+ -- brand varchar(50),
+ -- buydate date
+ -- );
+ 
+--INSERT INTO shirt VALUES('red',30,'dfg',01-01-2026),('black',25,'iiu',01-02-2026);
+--SELECT * FROM shirt;
+--DELETE FROM shirt WHERE color ='red';
+--SELECT * FROM shirt;
+
+
+-- CREATE table employee(
+ -- emp_id integer PRIMARY KEY AUTOINCREMENT,
+ -- name varchar(50),
+ -- phone int not NULL,
+ -- pincode INT
+ -- );
+ 
+--INSERT INTO employee (name,phone, pincode)
+--VALUES('harshith','100',560035),('vinay','452',874515),('ram','8622',489548)
+--SELECT * FROM employee;    
