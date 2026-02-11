@@ -1,0 +1,24 @@
+--SELECT * FROM Product WHERE category='Electronics' AND price BETWEEN 1000 and 50000;
+--SELECT * FROM customers;
+--SELECT * FROM orders;
+--SELECT * FROM Orderitems;
+
+--SELECT c.customer_id, c.name,sum(o.total_amount)as Total_Revenue, o.order_status 
+--FROM customers c JOIN orders o ON c.customer_id=o.customer_id 
+--GROUP by order_status 
+--HAVING Total_Revenue>15000;
+
+--SELECT * FROM payments;
+--SELECT * FROM orders;
+--SELECT * FROM customers;
+--SELECT payment_method,sum(amount)as Revenue FROM payments 
+--GROUP by payment_method 
+--HAVING Revenue>250000;
+
+--SELECT * FROM ProductSQL WHERE category in('Fashion','Home Appliances');
+
+SELECT c.name,c.customer_id,sum(o.total_amount) as Revenue,o.order_status,p.payment_date,p.payment_method 
+FROM customers c JOIN orders o on c.customer_id=o.customer_id
+JOIN payments p on p.order_id=o.order_id 
+WHERE total_amount>5000
+GROUP by payment_method;
